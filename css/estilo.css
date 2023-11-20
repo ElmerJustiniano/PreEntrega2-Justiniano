@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+h1{
+    font-size: 4.5rem;
+    color: lightcyan;
+    text-align: center;
+}
+nav{
+    width: 90%;height: 80px;
+    margin: 0 auto;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+img{
+    width: 80px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+img:hover{
+    border-radius: 20px;
+}
+.menu{
+    font-size: 1.25rem;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+nav .menu a{
+    color: black;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+nav .menu a:hover{
+    background-color: black;
+    color: lightblue;
+    border-radius: 20px;
+}
+h2{
+    text-align: left;
+    color: lightcyan;
+}
+p{
+    text-align: left;
+    color: white;
+}
+
+.img__grid{
+    width: 100%;
+    height: 45vh;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.grid-container{
+    background-color: lightblue;
+    width: 100%;
+    height: 45vh;
+    font-size: 1rem;
+    text-align: center;
+    margin: 20px auto;
+    
+    display: grid;
+    gap: 5px;
+    border-color: rgb(0, 0, 0);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    color: wheat;
+    text-align: center;
+}
+.menu2{
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+nav .menu2 a{
+    color: black;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+nav .menu2 a:hover{
+    background-color: black;
+    color: lightblue;
+    border-radius: 20px;
+}
+label{
+    color: lightcyan;
+    font-size: 1rem;
+}
+input{
+    border-color: blue;
+}
+textarea{
+    border-color: blue ;
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: yellow;
+        background-image: url(./pattern/pattern1.png);
+    }
+    h1{
+        color: aqua;
+    }
+}
